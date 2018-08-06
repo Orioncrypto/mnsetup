@@ -57,7 +57,7 @@ sleep 5
 sudo apt-get install -y ufw
 sudo ufw allow ssh/tcp
 sudo ufw limit ssh/tcp
-sudo ufw allow 41474/tcp
+sudo ufw allow 6668/tcp
 sudo ufw logging on
 echo "y" | sudo ufw enable
 sleep 2
@@ -81,8 +81,8 @@ echo "server=1" >> /root/.orion/orion.conf
 echo "daemon=1" >> /root/.orion/orion.conf
 echo "maxconnections=250" >> /root/.orion/orion.conf
 echo "masternode=1" >> /root/.orion/orion.conf
-echo "masternodeaddr$IP:11199" >> /root/.orion/orion.conf
-echo "externalip$IP:11199" >> /root/.orion/orion.conf
+echo "masternodeaddr$IP:6668" >> /root/.orion/orion.conf
+echo "externalip$IP:6668" >> /root/.orion/orion.conf
 echo "masternodeprivkey=$KEY" >> /root/.orion/orion.conf
 echo -e "${GREEN}STARTING THE DAEMON${NC}"
 cd /root
