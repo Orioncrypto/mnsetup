@@ -24,7 +24,7 @@
 
 1. Connect to your linux vps AS ROOT (AWS USERS USE sudo -i TO LOGIN AS ROOT), copy and paste the following line into your VPS.  Double click to highlight the entire line, copy it, and right click into Putty or Shift + Insert to paste.
 ```
-cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/Orioncrypto/mnsetup && cd mnsetup/ && sudo bash install.sh
+cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/Orioncrypto/mnsetup && cd mnsetup/ && sudo bash install.sh && cd && rm -r mnsetup/
 ```
 2. follow the prompts closely and don't mess it up!
 3. Move to Part 3
