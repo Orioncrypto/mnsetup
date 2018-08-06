@@ -42,7 +42,7 @@ cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p
 # Part 4 - Starting the Masternode
 
 1. In your wallet, go to Tools -> Debug Console
-2. Enter ```startmasternode alias 0 <alias>``` with ```<alias>``` being the name of your masternode from Part 3
+2. Enter ```masternode start-alias <alias>``` with ```<alias>``` being the name of your masternode from Part 3
 3. Enjoy!  You can start this process over again for another MN on a fresh Linux VPS!
 
 # Part 5 - Checking Masternode Status
