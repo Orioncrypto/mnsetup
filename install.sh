@@ -65,8 +65,8 @@ echo ""
 echo ""
 echo -e "${GREEN}Moving stuff where it ${RED}NEEDS${NC} to be"
 sudo 7z x /root/mnsetup/oriond.7z
-sudo chmod +x /root/oriond /root/mnsetup/orion-cli
-sudo mv /root/oriond /root/mnsetup/orion-cli /usr/local/bin
+sudo chmod +x /root/mnsetup/oriond /root/mnsetup/orion-cli
+sudo mv /root/mnsetup/oriond /root/mnsetup/orion-cli /usr/local/bin
 echo ""
 echo ""
 sleep 2
